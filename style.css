@@ -1,4 +1,4 @@
-*, *::before, *::after {
+*::before, *::after {
     box-sizing: border-box;
     font-family: sans-serif;
     font-weight: normal;
@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #680795, #0062ff);
+    background: linear-gradient(to right, #952307, #4c00ff);
 }
 .calculator-grid {
     display: grid;
@@ -52,6 +52,3 @@ body {
 }
 
 .output .current-operand {
-    color: white;
-    font-size: 2.5rem;
-}
